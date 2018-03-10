@@ -28,17 +28,17 @@ catkin_make
 
 ## Running the tests
 
-After catkin_make your could run
+After ```catkin_make your``` could run
 
-'''
+```
 roslaunch move_action move_navi.launch
-'''
+```
 
 Gazebo is running and you should see a turtlebot is spawn in gazebo. Then open a new terminal and run
 
-'''
+```
 rosrun move_action state_publisher.py
-'''
+```
 
 Normally you will see the robot rotate for a while and then move to a point and go back. 
 * The map properties is predefined in plan_service.py
