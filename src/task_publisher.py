@@ -16,9 +16,10 @@ def task_publisher(task_input):
 if __name__ == '__main__':
     try:
         #hard_task = '(<>(r5 && <>(r4 && <>r1)) && []!r2)'
-        hard_task = '[]<>r3'
+        hard_task = '(<>(r3 && <>r1))'
         soft_task = ''
         total_task = hard_task + ',' + soft_task
         task_publisher(total_task)
+        # Simply publish hard task and soft task. It will be linked to the GUI in the future
     except rospy.ROSInterruptException:
-        pass
+        rospy.loginfo('No task is being published!')
