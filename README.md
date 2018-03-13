@@ -28,7 +28,7 @@ catkin_make
 
 ## Running the tests
 
-After ```catkin_make your``` could run
+After ```catkin_make``` you could run
 
 ```
 roslaunch move_action move_navi.launch
