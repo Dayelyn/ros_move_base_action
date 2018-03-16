@@ -19,7 +19,7 @@ The following step is an instruction of how to deploy the package on your comput
 
 ### Installing
 
-Download or pull the code into your ROS workspace
+Download or pull the code into your ROS workspace, save it in ```move_action``` folder.
 
 ```
 cd ~/your_ROS_workspace
